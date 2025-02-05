@@ -1,0 +1,9 @@
+streamlit
+langchain_community
+langchain
+faiss-cpu
+unstructured
+unstructured[pdf]
+transformers
+sentence-transformers
+langchain_unstructured

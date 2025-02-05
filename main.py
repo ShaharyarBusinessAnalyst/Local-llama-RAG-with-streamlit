@@ -15,6 +15,8 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from doc_chat_utils import get_answer
 
+working_dir = os.path.dirname(os.path.abspath(__file__))
+
 st.set_page_config(
     page_title="Chat with document",
     page_icon="👋",

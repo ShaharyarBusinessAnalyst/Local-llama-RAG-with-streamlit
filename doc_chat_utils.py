@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1aj2HJXREK53Q6hk47OaUafLC_lZqi1Bl
 """
 
-!pip install transformers sentence-transformers langchain langchain-community langchain-openai faiss-cpu unstructured unstructured[pdf] langchain_unstructured
-
 import os
 
 from langchain_community.llms import Ollama

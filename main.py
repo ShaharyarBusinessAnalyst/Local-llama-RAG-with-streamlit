@@ -35,7 +35,7 @@ if st.button("Run"):
 
   file_path = os.path.join(working_dir, file_name)
   with open(file_path, "wb") as f:
-    f.write(byes_data)
+    f.write(bytes_data)
 
   answer = get_answer(file_name, user_query)
   st.success(answer)

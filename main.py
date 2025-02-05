@@ -23,7 +23,7 @@ st.set_page_config(
 
 st.title("Document- Q/A session")
 
-uploader_file = st.file_uploader(Label = "Upload your file", type=["pdf"])
+uploader_file = st.file_uploader(label = "Upload your file", type=["pdf"])
 
 user_query  = st.text_input(label = "Enter your question.")
 
